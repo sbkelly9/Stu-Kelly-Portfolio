@@ -19,7 +19,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    background-image: opacity: 0.5;
 }
 
 
@@ -505,6 +504,8 @@ section.my-work .section-heading {
 .isotope-box {
     position: relative;
     width: 100%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .isotope-toolbar {
@@ -676,6 +677,11 @@ section.contact-me {
 
 #contact {
     text-align: center;
+}
+
+.snip1321 img {
+    height: 300px;
+    width: 450px;
 }
 
 @media screen and (max-width: 1680px) {
