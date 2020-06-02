@@ -13,12 +13,13 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/Lincoln.jpg) no-repeat center center fixed;
+    background: url(../images/Lincoln-2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
+    background-image: opacity: 0.5;
 }
 
 
